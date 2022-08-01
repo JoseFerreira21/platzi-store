@@ -13,7 +13,7 @@ import {
 //import { identity } from 'rxjs';
 
 import { ProductService } from './../service/product.service';
-import { CreateProductDto, UpdateProductDto } from '../../../dtos/products.dto';
+import { CreateProductDto, UpdateProductDto } from '../dtos/products.dto';
 import { ApiTags } from '@nestjs/swagger';
 
 @ApiTags('product')

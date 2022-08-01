@@ -1,9 +1,6 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
-import { Category } from './../../../entities/category.entity';
-import {
-  CreateCategoryDto,
-  UpdateCategoryDto,
-} from '../../../dtos/category.dto';
+import { Category } from '../entities/category.entity';
+import { CreateCategoryDto, UpdateCategoryDto } from '../dtos/category.dto';
 import { ApiTags } from '@nestjs/swagger';
 
 @ApiTags()

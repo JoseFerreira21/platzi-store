@@ -29,7 +29,7 @@ export class CreateProductDto {
   @IsNumber()
   @IsPositive()
   stock: number;
-  
+
   @ApiProperty()
   @IsNotEmpty()
   @IsUrl()

@@ -10,7 +10,7 @@ import {
 } from '@nestjs/common';
 
 import { UserService } from './../service/user.service';
-import { CreateUserDto, UpdateUserDto } from '../../../dtos/user.dto';
+import { CreateUserDto, UpdateUserDto } from '../dtos/user.dto';
 import { ApiTags } from '@nestjs/swagger';
 
 @ApiTags('user')

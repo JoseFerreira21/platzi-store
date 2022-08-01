@@ -1,7 +1,7 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 
-import { Brand } from './../../../entities/brand.entity';
-import { CreateBrandDto, UpdateBrandDto } from '../../../dtos/brand.dto';
+import { Brand } from '../entities/brand.entity';
+import { CreateBrandDto, UpdateBrandDto } from '../dtos/brand.dto';
 import { ApiTags } from '@nestjs/swagger';
 
 @ApiTags()

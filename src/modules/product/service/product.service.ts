@@ -1,8 +1,7 @@
-// src/services/products.service.ts
 import { Injectable, NotFoundException } from '@nestjs/common';
 
-import { Product } from './../../../entities/product.entity';
-import { CreateProductDto, UpdateProductDto } from '../../../dtos/products.dto';
+import { Product } from '../entities/product.entity';
+import { CreateProductDto, UpdateProductDto } from '../dtos/products.dto';
 import { ApiTags } from '@nestjs/swagger';
 
 @ApiTags()
